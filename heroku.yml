@@ -1,5 +1,3 @@
 build:
   docker:
-    web: "ls-db:Dockerfile" . -f Dockerfile-ls-db
-run: 
-  web: --name=ls-db -p 3453:3306 -d ls-db:Dockerfile
+    web: Dockerfile-ls-db
